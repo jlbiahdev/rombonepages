@@ -85,7 +85,7 @@ pour montrer la mise en page.
 ## 📋 Checklist avant mise en ligne
 
 ### Contenus
-- [ ] Logo final ROMBONE intégré (remplacer assets/logo.svg)
+- [ ] Logo final ROMBONE intégré (remplacer assets/logo.png)
 - [ ] Coordonnées exactes mises à jour partout
 - [ ] Email contact configuré (contact@rombone.cm)
 - [ ] Numéro de téléphone réel
@@ -150,7 +150,7 @@ pour montrer la mise en page.
 ## 💡 Recommandations
 
 ### Priorité 1 (Cette semaine)
-1. **Ajouter le vrai logo** (assets/logo.svg)
+1. **Ajouter le vrai logo** (assets/logo.png)
 2. **Mettre à jour les coordonnées** exactes
 3. **Configurer le formulaire** de contact
 4. **Intégrer les documents** Statuts + Charte dans "À propos"
