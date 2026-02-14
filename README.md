@@ -45,7 +45,7 @@ Site vitrine institutionnel pour ROMBONE, coopérative agricole structurante à 
 Créez un dossier `/assets` et ajoutez :
 
 #### Logo
-- `logo.svg` - Logo ROMBONE (format SVG recommandé)
+- `logo.png` - Logo ROMBONE (format SVG recommandé)
 - `logo.png` - Version PNG si nécessaire
 - Fond transparent
 - Couleur : #304E32
@@ -118,7 +118,7 @@ Structure recommandée :
 #### Coordonnées exactes à mettre à jour
 Dans tous les fichiers `.html`, remplacer :
 - `+237 XX XX XX XX` par le vrai numéro
-- `contact@rombone.cm` par l'email réel
+- `contact.rombone@nzuane.org` par l'email réel
 - Vérifier l'adresse complète à Ebolowa
 
 #### Configuration formulaire

@@ -9,7 +9,7 @@
 - ✅ **styles.css** - Design system complet (18KB, optimisé)
 - ✅ **contact.css** - Styles spécifiques formulaire
 - ✅ **script.js** - Navigation, formulaire, animations, scroll effects
-- ✅ **logo.svg** - Logo placeholder ROMBONE
+- ✅ **logo.png** - Logo placeholder ROMBONE
 - ✅ **README.md** - Documentation technique complète
 - ✅ **GUIDE_INTEGRATION.md** - Guide détaillé pour intégrer vos documents
 
@@ -87,7 +87,7 @@ pour montrer la mise en page.
 ### Contenus
 - [ ] Logo final ROMBONE intégré (remplacer assets/logo.png)
 - [ ] Coordonnées exactes mises à jour partout
-- [ ] Email contact configuré (contact@rombone.cm)
+- [ ] Email contact configuré (contact.rombone@nzuane.org)
 - [ ] Numéro de téléphone réel
 - [ ] Adresse complète à Ebolowa
 
@@ -243,7 +243,7 @@ rombone-site/
 ├── README.md              # Documentation technique
 ├── GUIDE_INTEGRATION.md   # Guide intégration contenus
 └── assets/
-    └── logo.svg           # Logo placeholder
+    └── logo.png           # Logo placeholder
     └── images/            # Dossier pour vos images
 ```
 

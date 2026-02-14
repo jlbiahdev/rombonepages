@@ -250,7 +250,7 @@ Pour chaque document :
 
 Article 1 : Objet
 La présente convention a pour objet d'organiser la collaboration entre 
-le Centre de Ressources Agricoles (ci-après 'le CRA') et la coopérative 
+le Collège Régional d'Agriculture (ci-après 'le CRA') et la coopérative 
 ROMBONE dans le cadre de la formation pratique des apprenants du CRA.
 
 Article 2 : Engagements du CRA
@@ -270,10 +270,10 @@ ROMBONE s'engage à :
 
 ```html
 <div class="cra-partnership">
-    <h3>Centre de Ressources Agricoles : un partenariat fondateur</h3>
+    <h3>Collège Régional d'Agriculture : un partenariat fondateur</h3>
     
     <p class="lead-text">
-        Notre convention avec le Centre de Ressources Agricoles (CRA) structure 
+        Notre convention avec le Collège Régional d'Agriculture (CRA) structure 
         le volet pédagogique de ROMBONE et transforme nos parcelles en véritables 
         plateformes d'apprentissage terrain.
     </p>

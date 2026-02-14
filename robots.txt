@@ -1,0 +1,14 @@
+# Robots.txt pour ROMBONE
+# https://rombone.nzuane.org
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rombone.nzuane.org/sitemap.xml
+
+# Empêcher l'indexation des fichiers système
+Disallow: /assets/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /*.md$

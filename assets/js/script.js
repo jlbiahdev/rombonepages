@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+            //e.preventDefault();
             
             // Get form fields
             const name = document.getElementById('name');
