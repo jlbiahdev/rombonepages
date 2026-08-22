@@ -1,395 +1,553 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Suivez l'actualité de ROMBONE : avancement du projet, partenariats, formation, et vie de la coopérative agricole.">
-    <title>Actualités - ROMBONE | Coopérative Agricole</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/actualites.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Suivez l’actualité de ROMBONE : structuration de l’exploitation, partenariats, production, formation et développement territorial."
+      name="description"
+    />
+    <title>Actualités - ROMBONE | Entreprise Agricole</title>
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/actualites.css" rel="stylesheet" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="assets/logo.png" alt="ROMBONE Logo" class="logo">
-                <span class="logo-text">ROMBONE</span>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Accueil</a></li>
-                <li><a href="a-propos.html" class="nav-link">À propos</a></li>
-                <li><a href="notre-modele.html" class="nav-link">Notre modèle</a></li>
-                <li><a href="ambitions.html" class="nav-link">Ambitions & Impact</a></li>
-                <li><a href="actualites.html" class="nav-link active">Actualités</a></li>
-                <li><a href="galerie.html" class="nav-link">Galerie</a></li>
-                <li><a href="contact.html" class="nav-link nav-link-cta">Contact</a></li>
-            </ul>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img alt="ROMBONE Logo" class="logo" src="assets/logo.png" />
+          <span class="logo-text">ROMBONE</span>
         </div>
+        <button aria-label="Toggle navigation" class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="index.html">Accueil</a></li>
+          <li><a class="nav-link" href="a-propos.html">À propos</a></li>
+          <li><a class="nav-link" href="notre-modele.html">Notre modèle</a></li>
+          <li>
+            <a class="nav-link" href="ambitions.html">Ambitions &amp; Impact</a>
+          </li>
+          <li>
+            <a class="nav-link active" href="actualites.html">Actualités</a>
+          </li>
+          <li><a class="nav-link" href="galerie.html">Galerie</a></li>
+          <li>
+            <a class="nav-link nav-link-cta" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-
     <!-- Page Header -->
     <section class="page-header">
-        <div class="container">
-            <span class="page-label">Suivez notre avancement</span>
-            <h1 class="page-title">Actualités ROMBONE</h1>
-            <p class="page-intro">
-                Découvrez les étapes de notre structuration, nos partenariats 
-                et la vie de la coopérative
-            </p>
-        </div>
+      <div class="container">
+        <span class="page-label">Suivez notre avancement</span>
+        <h1 class="page-title">Actualités ROMBONE</h1>
+        <p class="page-intro">
+          Suivez la construction de l’exploitation, ses partenariats et ses
+          résultats
+        </p>
+      </div>
     </section>
-
     <!-- Filtres -->
     <section class="section section-filters">
-        <div class="container">
-            <div class="filters-wrapper">
-                <button class="filter-btn active" data-filter="all">Toutes les actualités</button>
-                <button class="filter-btn" data-filter="production">Production</button>
-                <button class="filter-btn" data-filter="formation">Formation</button>
-                <button class="filter-btn" data-filter="partenariats">Partenariats</button>
-                <button class="filter-btn" data-filter="vie-cooperative">Vie coopérative</button>
-            </div>
+      <div class="container">
+        <div class="filters-wrapper">
+          <button class="filter-btn active" data-filter="all">
+            Toutes les actualités
+          </button>
+          <button class="filter-btn" data-filter="production">
+            Production
+          </button>
+          <button class="filter-btn" data-filter="formation">Formation</button>
+          <button class="filter-btn" data-filter="partenariats">
+            Partenariats
+          </button>
+          <button class="filter-btn" data-filter="vie-entreprise">
+            Vie de l’entreprise
+          </button>
         </div>
+      </div>
     </section>
-
     <!-- Articles Grid -->
     <section class="section section-light">
-        <div class="container">
-            <div class="articles-grid">
-                
-                <!-- Article 1 - Signature Convention CRA -->
-                <article class="article-card" data-category="partenariats formation">
-                    <div class="article-image">
-                        <img src="assets/images/article-cra.jpg" alt="Signature Convention CRA" class="lazy" 
-                             data-src="assets/images/article-cra.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <rect x="10" y="15" width="60" height="45" stroke="currentColor" stroke-width="2"/>
-                                <path d="M20 30H60M20 40H60M20 50H45" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Partenariats</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - T1 2026</span>
-                            <span class="article-reading-time">3 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            Signature de la convention avec le Collège Régional d'Agriculture
-                        </h3>
-                        <p class="article-excerpt">
-                            Une étape fondatrice pour ROMBONE : notre partenariat avec le CRA structure 
-                            le volet pédagogique de la coopérative. Nos parcelles deviennent des espaces 
-                            de formation terrain pour les jeunes agriculteurs.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Article 2 - Structuration -->
-                <article class="article-card" data-category="vie-cooperative">
-                    <div class="article-image">
-                        <img src="assets/images/article-structuration.jpg" alt="Structuration ROMBONE" class="lazy" 
-                             data-src="assets/images/article-structuration.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <circle cx="40" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="20" cy="50" r="8" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="60" cy="50" r="8" stroke="currentColor" stroke-width="2"/>
-                                <path d="M35 25L25 45M45 25L55 45" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Vie coopérative</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - T1 2026</span>
-                            <span class="article-reading-time">4 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            ROMBONE se structure : validation des statuts et mise en place de la gouvernance
-                        </h3>
-                        <p class="article-excerpt">
-                            Les statuts de la coopérative sont validés. Le règlement intérieur est adopté. 
-                            Les instances de gouvernance se mettent en place. ROMBONE pose ses fondations 
-                            institutionnelles solides.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Article 3 - Première production -->
-                <article class="article-card" data-category="production">
-                    <div class="article-image">
-                        <img src="assets/images/article-production.jpg" alt="Première production" class="lazy" 
-                             data-src="assets/images/article-production.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <path d="M40 15L40 50M30 25L40 15L50 25M25 40L40 50L55 40" stroke="currentColor" stroke-width="2"/>
-                                <path d="M20 60H60" stroke="currentColor" stroke-width="3"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Production</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - T3 2026</span>
-                            <span class="article-reading-time">5 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            Préparation des premières parcelles : vers la production structurée
-                        </h3>
-                        <p class="article-excerpt">
-                            Les parcelles sont identifiées à Ebolowa. L'approche agronomique est définie. 
-                            Les premiers travaux de préparation démarrent. Cap vers une production maraîchère 
-                            raisonnée et scalable.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Article 4 - Impact social -->
-                <article class="article-card" data-category="partenariats">
-                    <div class="article-image">
-                        <img src="assets/images/article-impact.jpg" alt="Impact social" class="lazy" 
-                             data-src="assets/images/article-impact.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <circle cx="40" cy="25" r="10" stroke="currentColor" stroke-width="2"/>
-                                <path d="M20 60C20 48 28 40 40 40C52 40 60 48 60 60" stroke="currentColor" stroke-width="2"/>
-                                <path d="M30 45L35 50L45 40" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Partenariats</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - 2026</span>
-                            <span class="article-reading-time">3 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            Premiers contacts avec les écoles et orphelinats d'Ebolowa
-                        </h3>
-                        <p class="article-excerpt">
-                            Le pilier impact social de ROMBONE prend forme. Nous établissons les premiers 
-                            contacts avec les structures locales pour construire des circuits courts 
-                            d'approvisionnement solidaires.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Article 5 - Formation -->
-                <article class="article-card" data-category="formation">
-                    <div class="article-image">
-                        <img src="assets/images/article-formation.jpg" alt="Programme formation" class="lazy" 
-                             data-src="assets/images/article-formation.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <rect x="15" y="20" width="50" height="40" rx="4" stroke="currentColor" stroke-width="2"/>
-                                <path d="M25 35H55M25 45H55M25 55H45" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="55" cy="30" r="3" fill="currentColor"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Formation</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - T3 2026</span>
-                            <span class="article-reading-time">4 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            Lancement du programme de formation terrain avec le CRA
-                        </h3>
-                        <p class="article-excerpt">
-                            Les premiers apprenants du CRA arrivent sur nos parcelles. Le programme de 
-                            formation pratique démarre. Chaque jour de production devient un jour de 
-                            transmission de savoirs agricoles.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Article 6 - Vie coopérative -->
-                <article class="article-card" data-category="vie-cooperative">
-                    <div class="article-image">
-                        <img src="assets/images/article-assemblee.jpg" alt="Assemblée générale" class="lazy" 
-                             data-src="assets/images/article-assemblee.jpg">
-                        <div class="article-image-placeholder">
-                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
-                                <circle cx="25" cy="30" r="6" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="40" cy="30" r="6" stroke="currentColor" stroke-width="2"/>
-                                <circle cx="55" cy="30" r="6" stroke="currentColor" stroke-width="2"/>
-                                <rect x="15" y="45" width="50" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <span class="article-badge">Vie coopérative</span>
-                    </div>
-                    <div class="article-content">
-                        <div class="article-meta">
-                            <span class="article-date">À venir - 2026</span>
-                            <span class="article-reading-time">3 min</span>
-                        </div>
-                        <h3 class="article-title">
-                            Première assemblée générale des membres fondateurs
-                        </h3>
-                        <p class="article-excerpt">
-                            Un moment clé dans la vie de ROMBONE : la première assemblée générale réunit 
-                            les membres fondateurs. Bilan des premières actions, orientations stratégiques, 
-                            décisions collectives.
-                        </p>
-                        <a href="#" class="article-link">
-                            Lire la suite 
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2"/>
-                            </svg>
-                        </a>
-                    </div>
-                </article>
-
-            </div>
-
-            <!-- Empty State (caché par défaut, visible si aucun article ne correspond au filtre) -->
-            <div class="empty-state" style="display: none;">
-                <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
-                    <circle cx="60" cy="60" r="50" stroke="#E8E6E3" stroke-width="3"/>
-                    <path d="M40 60H80M60 40V80" stroke="#E8E6E3" stroke-width="3"/>
+      <div class="container">
+        <div class="articles-grid">
+          <!-- Article 1 - Signature Convention CRA -->
+          <article class="article-card" data-category="partenariats formation">
+            <div class="article-image">
+              <img
+                alt="Signature Convention CRA"
+                class="lazy"
+                data-src="assets/images/model-formation.jpg"
+                src="assets/images/model-formation.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <rect
+                    height="45"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    width="60"
+                    x="10"
+                    y="15"
+                  ></rect>
+                  <path
+                    d="M20 30H60M20 40H60M20 50H45"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
                 </svg>
-                <h3>Aucune actualité dans cette catégorie</h3>
-                <p>Revenez bientôt pour découvrir nos nouveaux articles.</p>
-                <button class="btn btn-secondary" onclick="resetFilters()">Voir toutes les actualités</button>
+              </div>
+              <span class="article-badge">Partenariats</span>
             </div>
-
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">3 min</span>
+              </div>
+              <h3 class="article-title">
+                Signature de la convention avec le Collège Rural d’Agriculture
+              </h3>
+              <p class="article-excerpt">
+                Une étape fondatrice pour ROMBONE : notre partenariat avec le
+                CRA structure le volet pédagogique du projet. Nos parcelles
+                deviennent des espaces de formation terrain pour les jeunes
+                agriculteurs.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <!-- Article 2 - Structuration -->
+          <article class="article-card" data-category="vie-entreprise">
+            <div class="article-image">
+              <img
+                alt="Structuration ROMBONE"
+                class="lazy"
+                data-src="assets/images/about-team.jpg"
+                src="assets/images/about-team.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <circle
+                    cx="40"
+                    cy="20"
+                    r="8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <circle
+                    cx="20"
+                    cy="50"
+                    r="8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <circle
+                    cx="60"
+                    cy="50"
+                    r="8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <path
+                    d="M35 25L25 45M45 25L55 45"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </div>
+              <span class="article-badge">Vie de l’entreprise</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">4 min</span>
+              </div>
+              <h3 class="article-title">
+                ROMBONE se structure : cadre juridique et organisation
+                opérationnelle
+              </h3>
+              <p class="article-excerpt">
+                Le cadre juridique de la société se précise et la structuration
+                opérationnelle se poursuit. Organisation, responsabilités et
+                outils de pilotage sont progressivement mis en place pour donner
+                à ROMBONE des bases solides.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <!-- Article 3 - Première production -->
+          <article class="article-card" data-category="production">
+            <div class="article-image">
+              <img
+                alt="Première production"
+                class="lazy"
+                data-src="assets/images/model-production.jpg"
+                src="assets/images/model-production.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <path
+                    d="M40 15L40 50M30 25L40 15L50 25M25 40L40 50L55 40"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                  <path
+                    d="M20 60H60"
+                    stroke="currentColor"
+                    stroke-width="3"
+                  ></path>
+                </svg>
+              </div>
+              <span class="article-badge">Production</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">5 min</span>
+              </div>
+              <h3 class="article-title">
+                Préparation des premières parcelles : vers la production
+                structurée
+              </h3>
+              <p class="article-excerpt">
+                Les parcelles sont identifiées à Ebolowa. L'approche agronomique
+                est définie. Les premiers travaux de préparation démarrent. Cap
+                vers une production maraîchère raisonnée et progressive.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <!-- Article 4 - Impact social -->
+          <article class="article-card" data-category="partenariats">
+            <div class="article-image">
+              <img
+                alt="Impact social"
+                class="lazy"
+                data-src="assets/images/model-impact.jpg"
+                src="assets/images/model-impact.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <circle
+                    cx="40"
+                    cy="25"
+                    r="10"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <path
+                    d="M20 60C20 48 28 40 40 40C52 40 60 48 60 60"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                  <path
+                    d="M30 45L35 50L45 40"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </div>
+              <span class="article-badge">Partenariats</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">3 min</span>
+              </div>
+              <h3 class="article-title">
+                Construction des premiers partenariats territoriaux à Ebolowa
+              </h3>
+              <p class="article-excerpt">
+                ROMBONE prépare les relations qui permettront d'ancrer
+                durablement son activité à Ebolowa : débouchés économiques,
+                partenaires techniques et contributions futures aux programmes
+                territoriaux portés avec NZUANE.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+          <!-- Article 5 - Formation -->
+          <article class="article-card" data-category="formation">
+            <div class="article-image">
+              <img
+                alt="Programme formation"
+                class="lazy"
+                data-src="assets/images/model-formation.jpg"
+                src="assets/images/model-formation.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <rect
+                    height="40"
+                    rx="4"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    width="50"
+                    x="15"
+                    y="20"
+                  ></rect>
+                  <path
+                    d="M25 35H55M25 45H55M25 55H45"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                  <circle cx="55" cy="30" fill="currentColor" r="3"></circle>
+                </svg>
+              </div>
+              <span class="article-badge">Formation</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">4 min</span>
+              </div>
+              <h3 class="article-title">
+                Lancement du programme de formation terrain avec le CRA
+              </h3>
+              <p class="article-excerpt">
+                Les premiers apprenants du CRA arrivent sur nos parcelles. Le
+                programme de formation pratique démarre. Chaque jour de
+                production devient un jour de transmission de savoirs agricoles.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
+          Article 6 - Vie de l’entreprise
+          <article class="article-card" data-category="vie-entreprise">
+            <div class="article-image">
+              <img
+                alt="Structuration de ROMBONE"
+                class="lazy"
+                data-src="assets/images/about-team.jpg"
+                src="assets/images/about-team.jpg"
+              />
+              <div class="article-image-placeholder">
+                <svg fill="none" height="80" viewbox="0 0 80 80" width="80">
+                  <circle
+                    cx="25"
+                    cy="30"
+                    r="6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <circle
+                    cx="40"
+                    cy="30"
+                    r="6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <circle
+                    cx="55"
+                    cy="30"
+                    r="6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></circle>
+                  <rect
+                    height="20"
+                    rx="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    width="50"
+                    x="15"
+                    y="45"
+                  ></rect>
+                </svg>
+              </div>
+              <span class="article-badge">Vie de l’entreprise</span>
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-date">À venir</span>
+                <span class="article-reading-time">3 min</span>
+              </div>
+              <h3 class="article-title">
+                ROMBONE franchit une nouvelle étape dans sa structuration
+              </h3>
+              <p class="article-excerpt">
+                La transformation de ROMBONE en société clarifie son rôle :
+                développer une activité agricole viable, organiser
+                l'exploitation et construire des partenariats utiles au
+                territoire. Une étape structurante pour la suite du projet.
+              </p>
+              <a class="article-link" href="#">
+                Lire la suite
+                <svg fill="none" height="16" viewbox="0 0 16 16" width="16">
+                  <path
+                    d="M6 3L11 8L6 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </article>
         </div>
+        <!-- Empty State (caché par défaut, visible si aucun article ne correspond au filtre) -->
+        <div class="empty-state" style="display: none">
+          <svg fill="none" height="120" viewbox="0 0 120 120" width="120">
+            <circle
+              cx="60"
+              cy="60"
+              r="50"
+              stroke="#E8E6E3"
+              stroke-width="3"
+            ></circle>
+            <path
+              d="M40 60H80M60 40V80"
+              stroke="#E8E6E3"
+              stroke-width="3"
+            ></path>
+          </svg>
+          <h3>Aucune actualité dans cette catégorie</h3>
+          <p>Revenez bientôt pour découvrir nos nouveaux articles.</p>
+          <button class="btn btn-secondary" onclick="resetFilters()">
+            Voir toutes les actualités
+          </button>
+        </div>
+      </div>
     </section>
-
     <!-- Newsletter Section -->
     <section class="section section-newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <div class="newsletter-text">
-                    <h2>Restez informé de notre avancement</h2>
-                    <p>
-                        Inscrivez-vous pour recevoir nos actualités et suivre l'évolution 
-                        de ROMBONE étape par étape.
-                    </p>
-                </div>
-                <form class="newsletter-form" id="newsletter-form">
-                    <input 
-                        type="email" 
-                        placeholder="Votre adresse email" 
-                        required
-                        class="newsletter-input"
-                    >
-                    <button type="submit" class="btn btn-primary">
-                        S'inscrire
-                    </button>
-                </form>
-            </div>
+      <div class="container">
+        <div class="newsletter-content">
+          <div class="newsletter-text">
+            <h2>Restez informé de notre avancement</h2>
+            <p>
+              Inscrivez-vous pour recevoir nos actualités et suivre l'évolution
+              de ROMBONE étape par étape.
+            </p>
+          </div>
+          <form class="newsletter-form" id="newsletter-form">
+            <input
+              class="newsletter-input"
+              placeholder="Votre adresse email"
+              required=""
+              type="email"
+            />
+            <button class="btn btn-primary" type="submit">S'inscrire</button>
+          </form>
         </div>
+      </div>
     </section>
-
     <!-- CTA Section -->
     <section class="section section-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Vous souhaitez en savoir plus ?</h2>
-                <p class="cta-text">
-                    Découvrez notre modèle coopératif en détail et nos ambitions 
-                    pour le développement territorial à Ebolowa.
-                </p>
-                <div class="cta-buttons">
-                    <a href="notre-modele.html" class="btn btn-primary btn-large">Notre modèle</a>
-                    <a href="contact.html" class="btn btn-outline btn-large">Nous contacter</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="cta-content">
+          <h2 class="cta-title">Vous souhaitez en savoir plus ?</h2>
+          <p class="cta-text">
+            Découvrez notre modèle en détail et nos ambitions pour le
+            développement territorial à Ebolowa.
+          </p>
+          <div class="cta-buttons">
+            <a class="btn btn-primary btn-large" href="notre-modele.html"
+              >Notre modèle</a
+            >
+            <a class="btn btn-outline btn-large" href="contact.html"
+              >Nous contacter</a
+            >
+          </div>
         </div>
+      </div>
     </section>
-
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <img src="assets/logo.png" alt="ROMBONE Logo" class="logo">
-                        <span class="logo-text">ROMBONE</span>
-                    </div>
-                    <p class="footer-tagline">
-                        Structurer la production pour renforcer le territoire
-                    </p>
-                </div>
-                
-                <div class="footer-col">
-                    <h4 class="footer-title">Navigation</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="a-propos.html">À propos</a></li>
-                        <li><a href="notre-modele.html">Notre modèle</a></li>
-                        <li><a href="ambitions.html">Ambitions & Impact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4 class="footer-title">Contact</h4>
-                    <ul class="footer-contact">
-                        <li>Ebolowa, Région du Sud</li>
-                        <li>République du Cameroun</li>
-                        <li><a href="mailto:contact.rombone@nzuane.org">contact.rombone@nzuane.org</a></li>
-                        <li><a href="tel:+237XXXXXXXXX">+237 XX XX XX XX</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4 class="footer-title">Suivez-nous</h4>
-                    <ul class="footer-links">
-                        <li><a href="actualites.html">Actualités</a></li>
-                        <li><a href="galerie.html">Galerie</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="footer-logo">
+              <img alt="ROMBONE Logo" class="logo" src="assets/logo.png" />
             </div>
-            
-            <div class="footer-bottom">
-                <p>&copy; 2026 ROMBONE - Coopérative Agricole. Tous droits réservés.</p>
-                <p class="footer-credit">Structurer, former, produire.</p>
-            </div>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="a-propos.html">À propos</a></li>
+              <li><a href="notre-modele.html">Notre modèle</a></li>
+              <li><a href="ambitions.html">Ambitions &amp; Impact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-title">Contact</h4>
+            <ul class="footer-contact">
+              <li>Ebolowa, Région du Sud</li>
+              <li>République du Cameroun</li>
+              <li>
+                <a href="mailto:contact.rombone@nzuane.org"
+                  >contact.rombone@nzuane.org</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="footer-title">Suivez-nous</h4>
+            <ul class="footer-links">
+              <li><a href="actualites.html">Actualités</a></li>
+              <li><a href="galerie.html">Galerie</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>© 2026 ROMBONE. Tous droits réservés.</p>
+          <p class="footer-credit">Produire. Transmettre. Contribuer.</p>
+        </div>
+      </div>
     </footer>
-
-    <script src="/assets/js/script.js"></script>
-    <script src="/assets/js/actualites.js"></script>
-</body>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/actualites.js"></script>
+  </body>
 </html>

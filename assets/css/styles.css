@@ -1,5 +1,5 @@
 /* ===================================
-   ROMBONE - Coopérative Agricole
+   ROMBONE - Entreprise Agricole
    Design System
    =================================== */
 
@@ -595,16 +595,31 @@ h3 {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: var(--space-lg);
+
+    /* Logo | Navigation | Contact | Suivez-nous */
+    grid-template-columns: 420px 1fr 1.25fr 1fr;
+
+    column-gap: 4rem;
+    align-items: start;
+
     margin-bottom: var(--space-lg);
+}
+
+.footer-col {
+    min-width: 0;
 }
 
 .footer-logo {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.footer-logo img {
+    display: block;
+    width: 420px;
+    max-width: 100%;
+    height: auto;
 }
 
 .footer-tagline {
@@ -717,9 +732,10 @@ h3 {
 }
 
 .info-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    column-gap: 2rem;
+    align-items: start;
     padding: 1rem 0;
     border-bottom: 1px solid var(--light-gray);
 }
@@ -739,6 +755,8 @@ h3 {
 .info-list span {
     font-weight: 600;
     color: var(--primary);
+    text-align: left;
+    line-height: 1.4;
 }
 
 /* === Section Gray === */
@@ -915,6 +933,29 @@ h3 {
 }
 
 /* === Responsive === */
+@media (max-width: 1200px) {
+    .footer-grid {
+        grid-template-columns: 300px 1fr 1.25fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .footer-logo img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+
+    .footer-logo img {
+        width: 300px;
+    }
+}
+
+
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
@@ -964,6 +1005,13 @@ h3 {
     
     .values-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }
 
